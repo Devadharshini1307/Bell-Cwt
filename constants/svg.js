@@ -1,0 +1,15 @@
+export const svg = {
+  FACTORY: 'factory.svg',
+  FIXING_BUGS: 'fixing_bugs.svg',
+  LIGHTHOUSE: 'lighthouse.svg',
+  NO_DATA: 'no_data.svg',
+  NO_RESULTS: 'no_results.svg',
+  PAGE_NOT_FOUND: 'page_not_found.svg',
+  ROAD_SIGN: 'road_sign.svg',
+  SERVER_DOWN: 'server_down.svg',
+  TOWING: 'towing.svg',
+  UNAUTHORISED: 'unauthorised.svg',
+  ISSUE: 'issue.svg',
+  RECEIPT: 'receipt.svg',
+  FILTER_SELECTION: 'filter_selection.svg',
+};

@@ -1,0 +1,55 @@
+.v-application {
+  font-weight: 500;
+}
+
+.v-application a {
+  text-decoration: none;
+}
+
+.v-label {
+  font-size: 0.85rem !important;
+}
+
+.toasted {
+  font-size: 0.9rem !important;
+  font-family: 'Poppins' !important;
+}
+
+/* Page Transitions */
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Layout Transitions */
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.2s;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+/* Fade Transitions */
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
+}
+.fade-enter-active {
+  transition: all 2s ease;
+}
+.fade-leave-active {
+  transition: all 0.5s ease;
+}
